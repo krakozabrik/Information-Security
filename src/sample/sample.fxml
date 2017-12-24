@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.BaseController">
+    <tabs>
+        <Tab text="Polybius square">
+            <content>
+                <fx:include fx:id="POLYBIUS_TAB" source="PolybiusSquare.fxml"/>
+            </content>
+        </Tab>
+        <Tab text="Substitution code">
+         <content>
+             <fx:include fx:id="SUBSTITUTION_TAB" source="SubstitutionCode.fxml"/>
+         </content>
+        </Tab>
+        <Tab text="Matrix multiplication">
+            <content>
+                <fx:include fx:id="MATRIX_TAB" source="MatrixMultiplication.fxml"/>
+            </content>
+        </Tab>
+        <Tab text="RSA">
+            <content>
+                <fx:include fx:id="RSA_TAB" source="Rsa.fxml"/>
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>
